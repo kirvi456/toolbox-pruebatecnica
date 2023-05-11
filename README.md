@@ -35,3 +35,12 @@ Para ejecutar tanto la API como el cliente web, se deben seguir los siguientes p
 4) Ejecutar el comando **npm start** para iniciar el cliente web en modo de desarrollo.
 5) Una vez completados estos pasos, la API estará disponible en **http://localhost:3000** y el cliente web estará disponible en **http://localhost:3001**.
 
+## Instrucciones de Ejecución en **<Contenedores>**
+Para ejecutar tanto la API como el cliente web pero utilizando contenedores:
+
+1) Instalar docker
+2) Instalar docker-compose
+3) Situarse en la carpeta donde se clono el repositorio
+4) Ejecutar el comando **docker-compose up**
+5) Una vez completados estos pasos, la API estará disponible en **http://localhost:3000** y el cliente web estará disponible en **http://localhost:80**.
+
