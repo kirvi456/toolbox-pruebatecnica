@@ -8,7 +8,7 @@ services:
     networks:
       my-network:
         aliases:
-          - app-node
+          - node-app
   react-app:
     build:
       context: ./FE
