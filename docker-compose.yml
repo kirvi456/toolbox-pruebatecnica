@@ -5,8 +5,3 @@ services:
       context: ./API
     ports:
       - 3000:3000
-  react-app:
-    build:
-      context: ./my-react-app
-    ports:
-      - 80:80
