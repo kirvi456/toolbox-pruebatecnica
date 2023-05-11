@@ -5,7 +5,7 @@ const fetchFilesData = async (query) => {
         return data;
     } catch (error) {
         try {
-            const response = await fetch(`http://node-app:3000/files/data?fileName=${query}`);
+            const response = await fetch(`http://146.190.70.233:3000/files/data?fileName=${query}`);
             const data = await response.json();
             return data;
         } catch (error) {
@@ -20,7 +20,7 @@ const fetchFilesList = async () => {
         return files;
     } catch (error) {
         try {
-            const response = await fetch(`http://node-app:3000/files/list`);
+            const response = await fetch(`http://146.190.70.233:3000/files/list`);
             const files = await response.json();
             return files;
         } catch (error) {
