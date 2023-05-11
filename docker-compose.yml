@@ -6,14 +6,18 @@ services:
     ports:
       - 3000:3000
     networks:
-      - my-network
+      my-network:
+        aliases:
+          - node-app
   react-app:
     build:
       context: ./FE
     ports:
       - 80:80
     networks:
-      - my-network
+      my-network:
+        aliases:
+          - react-app
 
 networks:
   my-network:
